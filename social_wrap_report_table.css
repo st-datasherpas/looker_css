@@ -20,6 +20,8 @@ thead tr:first-child th {
 
 thead tr:first-child th:first-child {
     text-align: left;
+    text-transform: uppercase;
+    text-align: left;
 }
 
 thead tr:not(:first-child) th:first-child {
