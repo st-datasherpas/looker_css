@@ -6,19 +6,13 @@ table {
     border: 2px solid #d1d1d1;
 }
 
-thead th {
+thead {
     background-color: #4d4d4d;
-    color: white;
-    padding: 12px;
-    border: 1px solid #ddd;
 }
 
-th {
-    background-color: #4d4d4d;
+thead th {
     color: white;
-    padding: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
+    padding: 12px;
     border: 1px solid #ddd;
 }
 
