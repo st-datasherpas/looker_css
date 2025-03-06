@@ -6,12 +6,19 @@ table {
     border: 2px solid #d1d1d1;
 }
 
-thead {
+thead tr:first-child {
     background-color: #4d4d4d;
 }
 
-thead th {
+thead tr:first-child th {
     color: white;
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+thead tr:not(:first-child) th {
+    background-color: inherit;
+    color: inherit;
     padding: 12px;
     border: 1px solid #ddd;
 }
