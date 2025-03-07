@@ -21,7 +21,7 @@ thead tr:first-child th {
 thead tr:first-child th:first-child {
     text-align: left;
     text-transform: uppercase;
-    width: 175px;
+    width: 10%;
 }
 
 thead tr:not(:first-child) th:first-child {
@@ -29,7 +29,7 @@ thead tr:not(:first-child) th:first-child {
     color: white;
     font-weight: bold;
     text-align: left;
-    width: 175px;
+    width: 10%;
 }
 
 thead tr:not(:first-child) th {
@@ -46,7 +46,11 @@ tbody td:first-child {
     font-weight: bold;
     text-align: left;
     text-transform: uppercase;
-    width: 175px;
+    width: 10%;
+}
+
+tbody td:not(:first-child) {
+    width: 90% / (var(--column-count, 1) - 1);
 }
 
 tbody tr:nth-child(odd) {
