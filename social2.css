@@ -15,6 +15,7 @@ thead tr:first-child th {
     padding: 12px;
     border: 1px solid #ddd;
     text-align: center;
+    font-weight: bold;
 }
 
 thead tr:first-child th:first-child {
@@ -36,6 +37,7 @@ thead tr:not(:first-child) th {
     padding: 12px;
     border: 1px solid #ddd;
     text-align: center;
+    font-weight: normal;
 }
 
 tbody td:first-child {
