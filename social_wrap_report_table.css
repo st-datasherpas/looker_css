@@ -8,6 +8,7 @@ table {
 
 thead tr:first-child {
     background-color: #4d4d4d;
+    text-transform: uppercase;
 }
 
 thead tr:first-child th {
