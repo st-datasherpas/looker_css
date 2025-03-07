@@ -1,0 +1,92 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 2px solid #d1d1d1;
+}
+
+thead tr:first-child {
+    background-color: #4d4d4d;
+    text-transform: uppercase;
+}
+
+thead tr:first-child th {
+    color: white;
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+thead tr:first-child th:first-child {
+    text-align: left;
+    width: 10%;
+    color: white;
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+thead tr:first-child th:first-child {
+    text-align: left;
+    
+    width: 10%;
+}
+
+thead tr:not(:first-child) th:first-child {
+    background-color: #cc0062;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    width: 10%;
+}
+
+thead tr:not(:first-child) th {
+    background-color: inherit;
+    color: inherit;
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tbody td:first-child {
+    background-color: #cc0062;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    
+    width: 10%;
+}
+
+tbody td:not(:first-child) {
+    width: 90% / (var(--column-count, 1) - 1);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+tbody td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    position: relative;
+}
+
+tbody td:hover::after {
+    content: attr(data-value);
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 10;
+}
