@@ -35,18 +35,6 @@
   background-color: #ffffbb;
 }
 
-.headerCell {}
-
-.indexCell.transposed {}
-
-.indexCell.transposed.merged {}
-
-.rowCell {}
-
-.nonNumeric {}
-
-.numeric {}
-
 table {
     width: 100%;
     border-collapse: collapse;
