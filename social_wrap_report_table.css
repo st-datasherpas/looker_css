@@ -21,6 +21,16 @@ thead tr:first-child th {
 thead tr:first-child th:first-child {
     text-align: left;
     width: 10%;
+    color: white;
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+thead tr:first-child th:first-child {
+    text-align: left;
+    
+    width: 10%;
 }
 
 thead tr:not(:first-child) th:first-child {
@@ -44,6 +54,7 @@ tbody td:first-child {
     color: white;
     font-weight: bold;
     text-align: left;
+    
     width: 10%;
 }
 
