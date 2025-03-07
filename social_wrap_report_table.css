@@ -8,7 +8,6 @@ table {
 
 thead tr:first-child {
     background-color: #4d4d4d;
-    text-transform: uppercase;
 }
 
 thead tr:first-child th {
@@ -20,7 +19,6 @@ thead tr:first-child th {
 
 thead tr:first-child th:first-child {
     text-align: left;
-    text-transform: uppercase;
     width: 10%;
 }
 
@@ -45,7 +43,6 @@ tbody td:first-child {
     color: white;
     font-weight: bold;
     text-align: left;
-    text-transform: uppercase;
     width: 10%;
 }
 
