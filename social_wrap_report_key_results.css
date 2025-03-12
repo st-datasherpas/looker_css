@@ -57,7 +57,7 @@ thead tr:first-child th {
 
 thead tr:first-child th:first-child {
     text-align: left;
-    width: 30%;
+    width: 40%;
 }
 
 thead tr:not(:first-child) th:first-child {
@@ -65,7 +65,7 @@ thead tr:not(:first-child) th:first-child {
     color: white;
     font-weight: bold;
     text-align: left;
-    width: 30%;
+    width: 40%;
 }
 
 thead tr:not(:first-child) th {
@@ -82,7 +82,7 @@ tbody td:first-child {
     color: white;
     font-weight: bold;
     text-align: left;
-    width: 30%;
+    width: 40%;
 }
 
 tbody td:not(:first-child) {
